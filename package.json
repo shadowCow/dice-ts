@@ -10,10 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/shadowCow/dice-ts.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "shadowCow",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shadowCow/dice-ts/issues"
   },
-  "homepage": "https://github.com/shadowCow/dice-ts#readme"
+  "homepage": "https://github.com/shadowCow/dice-ts#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
